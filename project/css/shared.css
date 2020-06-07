@@ -6,8 +6,8 @@ GENERIC STYLES
 */
 html {
     font-family: sans-serif;
-    font: size 62.5%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0,);
+    font-size:  62.5%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-text-size-adjust:100%;
     -ms-text-size-adjust:100%;
 }
@@ -36,9 +36,10 @@ h1 {
     text-transform: uppercase;
     color: #E91C1C;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    text-align: center;
 }
 
-h1::after { /*This is the underline*/
+h1:after { /*This is the underline*/
     display:block;
     content: "";
     height: 2px;
@@ -46,6 +47,7 @@ h1::after { /*This is the underline*/
     background: #E91c1c;
     margin: 5px auto 40px;
     box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
+}
 
 h2 {
     line-height: 50px;
@@ -161,7 +163,7 @@ HOME SECTION STYLES
 }
 
 .head-main {
-    text-shadow: 2px 4px 5px rgba(0,0,0,0.9));
+    text-shadow: 2px 4px 5px rgba(0,0,0,0.9);
     font-variant:small-caps;
     color: #fff;
     letter-spacing: 5pt;
@@ -327,7 +329,7 @@ FOOTER STYLES
 #footer {
     background-color: rgba(100,65,0,.3);
     color: #000;
-    text-shadow:2px 2px 8px 0 (0,0,0,0.4)
+    text-shadow:2px 2px 8px 0 (0,0,0,0.4);
     padding: 20px 50px 20px 50px;
     text-align:right;
 }

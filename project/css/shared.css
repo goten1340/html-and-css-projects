@@ -231,7 +231,8 @@ CONTACT STYLES
 }
 
 .reservation h2 span {
-    widows: 70%;text-align:center;
+    widows: 70%;
+    text-align:center;
     margin:0 auto;
     color:#13161b;
     font-weight: 900;
@@ -244,7 +245,7 @@ CONTACT STYLES
 .reservation p {
     color: #13161b;
     width:50%;
-    margin: 0,auto;
+    margin: 0 auto;
 }
 
 .reservation form {
@@ -276,7 +277,7 @@ CONTACT STYLES
     margin: 10px 1em;
     border-radius: 7px;
     background: #13161b;
-    box-shadow: inact 0px 3px 0px rgba(5,5,5,0.15);
+    box-shadow: inset 0px 3px 0px 0px rgba(5,5,5,0.15);
     font-family: 'Raleway', sans-serif;
 }
 
